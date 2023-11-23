@@ -86,12 +86,23 @@ p {
 
 main article ul {
     list-style: disc;
+}
+
+main article ol {
+    list-style: decimal;
+}
+
+main article ul,
+main article ol {
     margin: 1.8em;
     font-size: 1.2em;
     line-height: 1.6em;
 }
 
+main article table {
+    font-size: 1.2em;
 
+}
 
 /* TABELLE */
 
