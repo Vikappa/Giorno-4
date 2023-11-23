@@ -12,6 +12,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+i {
+    margin: 0.5em;
+}
+
 /* HEADER */
 
 header {
@@ -24,9 +28,10 @@ header {
 }
 
 header h2,
-p {
+header p {
     color: white;
     margin: 0.5em 0 0.5em 0;
+
 }
 
 header h2 {
@@ -37,10 +42,56 @@ header img {
     width: 100%;
 }
 
-
 /* MAIN */
 
+main {
+    background-color: white;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+    padding: 1em;
+}
+
+main h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+main p {
+    color: black;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+main span {
+    color: #AA2072;
+}
+
+main h6 {
+    color: #94AA99;
+}
+
 /* ELEMENTI NEL MAIN - ARTICLE */
+
+.fintobutton {
+    display: inline;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 7px;
+    background-color: rgb(231, 231, 231);
+}
+
+p {
+    margin: 1.2em 0 1.2em 0;
+}
+
+main article ul {
+    list-style: disc;
+    margin: 1.8em;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+
 
 /* TABELLE */
 
@@ -49,3 +100,28 @@ header img {
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+
+footer {
+    margin: 5%;
+    padding: 8%;
+    text-align: center;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to top, #01AACD, #006688);
+    padding: 1em;
+}
+
+footer h4 {
+    color: white;
+    margin: 0.5em 0 1em 0;
+}
+
+footer p {
+    color: white;
+    margin: 0.5em 0 0.5em 0;
+    line-height: 1.2em;
+}
+
+footer a {
+    color: #AA2072;
+    font-weight: 600;
+}
