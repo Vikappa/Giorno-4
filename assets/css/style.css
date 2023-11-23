@@ -4,11 +4,12 @@
 
 body {
     width: 500px;
+    max-width: 800px;
     margin: auto;
     background-image: url(../img/sfondo.png);
     background-repeat: repeat-y;
     background-position: center;
-    background-size: 35%;
+    background-size: 60%;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -151,20 +152,41 @@ main article iframe {
 .newsletter {
     margin: 1em 0.5em 1em 0.5em;
     padding: 0.5em;
-    background-color: lightgray;
+    background-color: rgb(245, 245, 245);
     text-align: center;
 }
-
-/* TABELLE */
-
-/* FORM */
 
 /* ELEMENTI NELL' ASIDE */
 main aside form button {
     background-color: #3366CC;
     color: white;
     font-weight: 600;
+}
 
+/* NAV */
+
+main nav a {
+    font-size: 1.43em;
+}
+
+.articolo_proposo p {
+    font-size: 1.2em;
+    margin: 0 0 0.5em 0;
+}
+
+.articolo_proposo i {
+    margin: 0.4em 0.2em 0 0.2em;
+}
+
+.articolo_proposo {
+    background-color: rgb(245, 245, 245);
+    border: 1px solid lightgray;
+    margin: 1em 0 1em 0;
+    padding: 1em;
+}
+
+.dataP {
+    text-align: end;
 }
 
 /* FOOTER */
