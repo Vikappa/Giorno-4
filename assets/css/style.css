@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
-    margin: auto;
+    margin: 0;
     background-image: url(../img/sfondo.png);
     background-repeat: repeat-y;
     background-position: center;
@@ -48,7 +48,7 @@ header img {
 /* MAIN */
 
 main {
-    margin: 10vh;
+    margin: 5%;
     background-color: white;
     box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
     padding: 1em;
