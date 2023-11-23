@@ -101,7 +101,23 @@ main article ol {
 
 main article table {
     font-size: 1.2em;
+    width: 100%;
+}
 
+main article table td,
+main article table th {
+    line-height: 2.5em;
+    text-align: center;
+}
+
+main article table thead {
+    background-color: #0159cd;
+    color: white;
+}
+
+main article table caption {
+    font-style: italic;
+    font-weight: bold;
 }
 
 /* TABELLE */
