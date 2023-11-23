@@ -7,8 +7,8 @@ body {
     background-image: url(../img/sfondo.png);
     background-repeat: repeat-y;
     background-position: center;
-    background-size: 60%;
     font-family: 'Poppins', sans-serif;
+    background-size: contain;
 }
 
 i {
@@ -114,6 +114,18 @@ main article table {
     border-bottom: 2px solid #3366CC;
 }
 
+main article table th:nth-child(1) {
+    width: 20%;
+}
+
+main article table th:nth-child(2) {
+    width: 30%;
+}
+
+main article table th:nth-child(3) {
+    width: 50%;
+}
+
 main article table td,
 main article table th {
     line-height: 2.5em;
@@ -144,7 +156,7 @@ main article table tbody:nth-child(even) {
 
 main article iframe {
     width: 100%;
-    height: auto;
+    height: 30vh;
     border-radius: 25px;
 }
 
