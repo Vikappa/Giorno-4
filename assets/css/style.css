@@ -2,6 +2,23 @@
 
 /* HEADER */
 
+header {
+    background: linear-gradient(to bottom, #01AACD, #006688);
+    margin: 5%;
+    padding: 8%;
+    text-align: center;
+}
+
+header h2,
+p {
+    color: white;
+}
+
+header img {
+    width: 100%;
+}
+
+
 /* MAIN */
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -13,3 +30,14 @@
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+
+body {
+    width: 500px;
+    margin: auto;
+    background-image: url(../img/sfondo.png);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 35%;
+}
+
+body>img {}
